@@ -1,0 +1,130 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0dc0f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-display {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .weather-city {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .weather-temp {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .weather-condition {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-icon {
+    display: block;
+    margin: 0 auto 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .weather-info {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .recent-searches {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .recent-searches h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .search-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-list li {
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .search-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .unit-toggle {
+    text-align: center;
+  }
+  
+  .unit-toggle button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .unit-toggle button.active {
+    background-color: #0056b3;
+  }
+  
+  .unit-toggle button:not(.active) {
+    background-color: #ddd;
+    color: #333;
+  }
+  
